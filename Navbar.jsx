@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Website
+        Pasa-Portfolio 
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -30,3 +30,4 @@ export const Navbar = () => {
     </nav>
   );
 };
+
